@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    
+    <record model="res.groups" id="group_create_products">
+        <field name="name">Create Product</field>
+        <field name="category_id" ref="base.module_category_usability"/>
+        <field name="comment">Only this group can create products</field>
+        <field name="sequence">1</field>
+    </record>
+    
+</odoo>
